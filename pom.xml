@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>flyway</module>
+        <module>mail</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -59,6 +60,14 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <!-- Junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
