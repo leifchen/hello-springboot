@@ -1,0 +1,23 @@
+-- USER库脚本
+CREATE DATABASE db_user CHARSET utf8;
+USE db_user;
+CREATE TABLE `t_user`
+(
+    `id`   INT(11) NOT NULL AUTO_INCREMENT COMMENT '自增id',
+    `name` VARCHAR(10) DEFAULT NULL COMMENT '姓名',
+    `age`  INT(2)      DEFAULT NULL COMMENT '年龄',
+    PRIMARY KEY (`id`)
+) ENGINE = INNODB
+  DEFAULT CHARSET = utf8;
+
+-- STUDENT库脚本
+CREATE DATABASE db_student CHARSET utf8;
+USE db_student;
+CREATE TABLE `t_student`
+(
+    `id`   INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(16) DEFAULT NULL,
+    `age`  INT(11)     DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE = INNODB
+  DEFAULT CHARSET = utf8;
