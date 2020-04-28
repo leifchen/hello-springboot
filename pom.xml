@@ -8,6 +8,7 @@
         <module>flyway</module>
         <module>mail</module>
         <module>multi-datasource</module>
+        <module>shiro</module>
     </modules>
 
     <parent>
