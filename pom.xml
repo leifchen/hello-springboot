@@ -9,6 +9,7 @@
         <module>mail</module>
         <module>multi-datasource</module>
         <module>shiro</module>
+        <module>spring-security</module>
     </modules>
 
     <parent>
