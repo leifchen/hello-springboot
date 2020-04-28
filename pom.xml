@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>spring-framework</module>
         <module>flyway</module>
         <module>mail</module>
         <module>multi-datasource</module>
