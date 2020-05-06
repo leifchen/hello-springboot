@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      master:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: 123456
+        url: jdbc:mysql://localhost:3306/db_master?useUnicode=true&characterEncoding=utf8&useSSL=false
+      slave:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: 123456
+        url: jdbc:mysql://localhost:3306/db_slave?useUnicode=true&characterEncoding=utf8&useSSL=false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
