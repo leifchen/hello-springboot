@@ -12,6 +12,7 @@
         <module>shiro</module>
         <module>spring-security</module>
         <module>dynamic_datasource</module>
+        <module>auto-configuration</module>
     </modules>
 
     <parent>
