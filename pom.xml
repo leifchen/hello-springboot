@@ -13,6 +13,7 @@
         <module>spring-security</module>
         <module>dynamic_datasource</module>
         <module>auto-configuration</module>
+        <module>redis</module>
     </modules>
 
     <parent>
