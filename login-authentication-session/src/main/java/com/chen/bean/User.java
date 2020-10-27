@@ -2,6 +2,8 @@ package com.chen.bean;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * User
  * <p>
@@ -9,7 +11,7 @@ import lombok.Data;
  * @Date 2020-10-27
  */
 @Data
-public class User {
+public class User implements Serializable {
     private String username;
     private String password;
 }
