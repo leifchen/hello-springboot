@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dynamic_datasource</artifactId>
+    <artifactId>dynamic-datasource</artifactId>
 
     <properties>
         <druid.version>1.1.20</druid.version>

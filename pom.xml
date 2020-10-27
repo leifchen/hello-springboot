@@ -11,7 +11,7 @@
         <module>multi-datasource</module>
         <module>shiro</module>
         <module>spring-security</module>
-        <module>dynamic_datasource</module>
+        <module>dynamic-datasource</module>
         <module>auto-configuration</module>
         <module>redis</module>
     </modules>
