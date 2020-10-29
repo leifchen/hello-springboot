@@ -29,7 +29,7 @@ public class TestController {
 
     @GetMapping("/{name}/list")
     public List<Test> list(@PathVariable("name") String name) {
-        if (MASTER.equals(name)) {
+        if (MASTER.equalsIgnoreCase(name)) {
             return testService.findAllWithMaster();
         } else {
             return testService.findAllWithSlave();
