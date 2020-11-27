@@ -17,6 +17,7 @@
         <module>login-authentication-session</module>
         <module>login-authentication-jwt</module>
         <module>rest</module>
+        <module>servlet</module>
     </modules>
 
     <parent>
